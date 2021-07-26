@@ -1,0 +1,16 @@
+{% from "erpnext/templates/includes/macros.html" import product_image_square %}
+
+<div class="col-md-3 col-sm-6 col-xs-6">
+	<div class="container-main">
+		<a class="thumbnail" href="{{ file_url|abs_url }}" target="black" rel="nofollow" style="box-shadow: 0px 1px 5px 0px #404040;">
+			<article class="caption">
+				<div class="product-image product-image-square
+					 " style="background-image: url('{{ file_url|abs_url }}');display: block;background-size: 100% 100%;">
+				</div>				
+				<div class="caption__overlay">
+				</div>
+			</article>
+		</a>
+	</div>
+</div>
+

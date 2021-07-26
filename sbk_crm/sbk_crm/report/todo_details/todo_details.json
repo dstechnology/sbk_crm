@@ -1,0 +1,41 @@
+{
+ "add_total_row": 0, 
+ "apply_user_permissions": 1, 
+ "creation": "2018-02-24 18:46:23.021048", 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "modified": "2018-04-17 11:43:22.609429", 
+ "modified_by": "Administrator", 
+ "module": "Sbk Crm", 
+ "name": "ToDo Details", 
+ "owner": "Administrator", 
+ "ref_doctype": "Interaction", 
+ "report_name": "ToDo Details", 
+ "report_type": "Script Report", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }, 
+  {
+   "role": "Purchase User"
+  }, 
+  {
+   "role": "Purchase Manager"
+  }, 
+  {
+   "role": "Sales User"
+  }, 
+  {
+   "role": "Sales Manager"
+  }, 
+  {
+   "role": "Accounts Manager"
+  }, 
+  {
+   "role": "Accounts User"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sbk_crm *.css
+recursive-include sbk_crm *.csv
+recursive-include sbk_crm *.html
+recursive-include sbk_crm *.ico
+recursive-include sbk_crm *.js
+recursive-include sbk_crm *.json
+recursive-include sbk_crm *.md
+recursive-include sbk_crm *.png
+recursive-include sbk_crm *.py
+recursive-include sbk_crm *.svg
+recursive-include sbk_crm *.txt
+recursive-exclude sbk_crm *.pyc

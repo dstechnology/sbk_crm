@@ -1,0 +1,45 @@
+{% extends "templates/web.html" %}
+
+{% block title %} {{ _("My Order: DS-0001") }} {% endblock %}
+
+{% block header %}<h2>{{ _("My Order") }}</h2>{% endblock %}
+
+{% block page_content %}
+<script>{% include "templates/include/my_product_list.js" %}</script>
+
+<script>
+frappe.ready(function() {
+	// var txt = get_url_arg("search");
+	// $(".search-results").html("{{ _('Order Details') }}: " + encodeURIComponent(txt));
+	// window.search = txt;
+	window.start = 0;
+	window.get_product_list();
+	$('.page-header').hide();
+});
+
+</script>
+
+
+
+<div class="product-search-content">
+
+    <h3 class="search-results">{{ _("Verification Page") }}</h3>
+
+
+	<div id="delivery_details" class="row">
+
+<!-- 	</div>
+	<div style="text-align: center;">
+		<div class="more-btn"
+			style="display: none; text-align: center;">
+            <button class="btn btn-default">{{ _("More...") }}</button>
+		</div>
+	</div> -->
+</div>
+<!-- {% endblock %} -->
+
+<style type="text/css">
+	.page-header{
+		display: :none;
+	}
+</style>
