@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T14:47:37.704Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="30fy-CyaMYFEUqstOzD7" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-24T14:56:49.169Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="KsoN2P0Fe7Tyxh-eNSFO" version="16.4.5" type="github">
   <diagram id="4KBg9583QjpEukIqJTFq" name="Page-1">
-    <mxGraphModel dx="946" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2102" dy="2605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,17 +68,17 @@
             <mxPoint x="262" y="519" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8Ukhlz2gmd6ea9L10vsZ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2-XgYjdQ37Xzaiq8yvsq-10" target="8Ukhlz2gmd6ea9L10vsZ-30">
+        <mxCell id="8Ukhlz2gmd6ea9L10vsZ-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2-XgYjdQ37Xzaiq8yvsq-10" target="2-XgYjdQ37Xzaiq8yvsq-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2-XgYjdQ37Xzaiq8yvsq-10" value="Creates Patched PO (Draft)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="341.5" y="489" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2-XgYjdQ37Xzaiq8yvsq-11" value="Station creates PR&amp;nbsp; against the Patched PO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="339.5" y="659" width="120" height="60" as="geometry" />
+          <mxGeometry x="341.5" y="659" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2-XgYjdQ37Xzaiq8yvsq-12" value="Created PINV inclunding original short PR and Patched PO&#39;s PR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFFB3;" parent="1" vertex="1">
-          <mxGeometry x="339.5" y="769" width="120" height="60" as="geometry" />
+          <mxGeometry x="341.5" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Ukhlz2gmd6ea9L10vsZ-13" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="670" y="479" width="40" height="20" as="geometry" />
@@ -97,16 +97,13 @@
         <mxCell id="8Ukhlz2gmd6ea9L10vsZ-27" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="175" y="599" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8Ukhlz2gmd6ea9L10vsZ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ukhlz2gmd6ea9L10vsZ-30" target="2-XgYjdQ37Xzaiq8yvsq-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8Ukhlz2gmd6ea9L10vsZ-30" value="&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 10px&quot;&gt;New PO approvals will be as per BAU&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="599" width="180" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="8Ukhlz2gmd6ea9L10vsZ-36" value="&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 10px&quot;&gt;Station cannot do PR on older PO for item mentioned in Patched PO request&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="549" width="132" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8Ukhlz2gmd6ea9L10vsZ-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ukhlz2gmd6ea9L10vsZ-48" target="2-XgYjdQ37Xzaiq8yvsq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ukhlz2gmd6ea9L10vsZ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ukhlz2gmd6ea9L10vsZ-48" target="8Ukhlz2gmd6ea9L10vsZ-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Ukhlz2gmd6ea9L10vsZ-48" value="Main PO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -114,6 +111,15 @@
         </mxCell>
         <mxCell id="8Ukhlz2gmd6ea9L10vsZ-50" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="415" y="-30" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ukhlz2gmd6ea9L10vsZ-51" value="Created PR 1 for correct Items" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="541.5" y="-270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ukhlz2gmd6ea9L10vsZ-58" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-family%3A%20%26amp%3B%2334%3Barial%26amp%3B%2334%3B%20%3B%20font-size%3A%2010px%26quot%3B%26gt%3BNew%20PO%20approvals%20will%20be%20as%20per%20BAU%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22324%22%20y%3D%22579%22%20width%3D%22180%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="600" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ukhlz2gmd6ea9L10vsZ-59" value="&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 10px&quot;&gt;New PO approvals as per BAU&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="339" y="579" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
