@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T13:54:17.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="ETStZNtWvzbZV8UpBNjc" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-24T13:55:03.429Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="L1JRBK8gOdChw2gHqgyi" version="16.4.5" type="github">
   <diagram id="4KBg9583QjpEukIqJTFq" name="Page-1">
     <mxGraphModel dx="946" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,8 +19,8 @@
         <mxCell id="IGvJUtBMDrH0H_VjPU9P-31" value="Submit Patched PO&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="348" y="468" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IGvJUtBMDrH0H_VjPU9P-33" value="&lt;span&gt;Patched PO Request&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="260" y="-110" width="290" height="70" as="geometry" />
+        <mxCell id="IGvJUtBMDrH0H_VjPU9P-33" value="&lt;span&gt;CPO raise &lt;br&gt;Patched PO Request&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="262" y="-110" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IGvJUtBMDrH0H_VjPU9P-34" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;C&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="473" y="158" width="20" height="20" as="geometry" />
@@ -45,6 +45,12 @@
         </mxCell>
         <mxCell id="2-XgYjdQ37Xzaiq8yvsq-12" value="Created PINV inclunding original short PR and Patched PO&#39;s PR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFFB3;" vertex="1" parent="1">
           <mxGeometry x="339.5" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2-XgYjdQ37Xzaiq8yvsq-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.476;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IGvJUtBMDrH0H_VjPU9P-33" target="2-XgYjdQ37Xzaiq8yvsq-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="110" as="sourcePoint" />
+            <mxPoint x="440" y="60" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
